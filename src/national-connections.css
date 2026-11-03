@@ -1,0 +1,19 @@
+.national-section{padding-top:85px}
+.national-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}
+.national-card{display:flex;flex-direction:column;min-width:0;min-height:255px;padding:21px;border:1px solid #c6e7d5;border-radius:19px;background:linear-gradient(155deg,#fff,#f1fbf4);box-shadow:0 8px 0 #d7ebe2,0 18px 27px #1a605f16;color:#124656;text-decoration:none;transition:transform .2s,box-shadow .2s}
+.national-card:hover{transform:translateY(-5px);box-shadow:0 13px 0 #d7ebe2,0 25px 32px #1a605f20}
+.national-card-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:21px;color:#198376}
+.national-icon{width:48px;height:48px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(145deg,#dff8e8,#b9ebd4);color:#14885f;box-shadow:0 4px 0 #8acbb0}
+.national-card small{font-size:10px;font-weight:800;letter-spacing:1.45px;color:#158377}
+.national-card strong{display:block;margin:9px 0;font-size:17px;line-height:1.32}
+.national-card p{margin:0 0 18px;font-size:12px;line-height:1.5;color:#577789}
+.national-source{display:flex;align-items:center;gap:6px;margin-top:auto;padding-top:13px;border-top:1px solid #d9ebe4;color:#138668;font-size:11px;font-weight:800}
+.national-disclaimer{margin:22px 0 0;color:#6a878a;font-size:11px;line-height:1.5}
+.ai-live-note p{flex:1;min-width:0}.ai-live-note p>span{display:block}.ai-live-note small{display:block;margin-top:5px;color:#55877a;font-size:9px}.ai-live-note>button{border:0;background:transparent;color:#168c80;padding:4px}
+.team-page-link{display:inline-flex;align-items:center;gap:10px;min-height:44px;margin:0 auto 22px;padding:10px 17px;border:1px solid #86c9aa;border-radius:11px;background:#f6fff7;color:#0d7056;text-decoration:none;font-size:13px;font-weight:800;box-shadow:0 6px 13px #13584019}
+.team-page-link:hover{background:#fff;transform:translateY(-2px)}
+.closing-section .team-page-link{margin-right:16px}
+@media(max-width:600px){.closing-section .team-page-link{margin-right:8px}}
+@media(max-width:1050px){.national-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.national-section{padding-top:60px}.national-grid{gap:11px}.national-card{min-height:245px;padding:15px}.national-card strong{font-size:14px}.national-card p{font-size:11px}.national-source{font-size:10px}.national-disclaimer{font-size:10px}}
+@media(max-width:390px){.national-grid{grid-template-columns:1fr}.national-card{min-height:0}.national-card-top{margin-bottom:13px}}

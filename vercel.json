@@ -1,0 +1,9 @@
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {"source": "/ekip", "destination": "/index.html"},
+    {"source": "/ekip/", "destination": "/index.html"}
+  ]
+}
